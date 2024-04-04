@@ -39,3 +39,15 @@
 .boxes h1 {
     color: var(--btn);
 }
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .imgContainer {
+        display: none;
+    }
+    
+}

@@ -4,8 +4,8 @@ import styles from './contact.module.css'
 export default function Contact() {
   return (
     <div className={styles.container}>
-        <div className={styles.imgConainer}>
-          <Image priority={true} className={styles.img} src="/contact.png" alt='contact page' width={500} height={500} />
+        <div className={styles.imgContainer}>
+          <Image priority={true} className={styles.img} src="/contact.png" alt='contact page' fill />
         </div>
         <div className={styles.formContainer}>
           <form className={styles.form}>
